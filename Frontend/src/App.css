@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: cursive;
+}
+
+/* Reset margin for h1 */
+h1 {
+  margin: 0; /* Remove default margin */
+}
+
+/* Specific styling for the glowing text */
+.glowing-text {
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+  margin-top: 0; /* Ensure no margin above the title */
+  padding-top: 0; /* Ensure no padding above the title */
+  line-height: 1; /* Adjust line height if needed */
+  padding-bottom: 0.8cm;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+

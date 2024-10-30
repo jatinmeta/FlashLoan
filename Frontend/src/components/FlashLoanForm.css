@@ -1,0 +1,166 @@
+
+/* Adjust positioning of the token input fields */
+.token-input {
+  position: absolute; /* Allow for precise placement */
+  width: 150px; /* Width of the input fields */
+  text-align: center; /* Center align text */
+}
+
+/* Specific positions for each token input */
+.token1-input {
+  bottom: calc(140px); /* Position between arrow 1 and arrow 3 */
+  left:48%; /* Center horizontally */
+  transform: translateX(-50%);
+} 
+
+.token2-input {
+  bottom: calc(5px); /* Position between arrow 2 and arrow 1 */
+  left: 87%; /* Position to the right */
+  transform: translateX(-50%);
+}
+
+.token3-input {
+  bottom: calc(5px); /* Position between arrow 3 and arrow 2 */
+  left: 8%; /* Position to the left */
+  transform: translateX(-50%);
+}
+
+
+
+
+.class_1
+{
+  font-size: smaller;
+  width:47px;
+  position: absolute;
+  top: 220px;
+  left:38%;
+
+}
+.class_connect_account1
+{
+  position: absolute; /* Position it absolutely */
+  top: 2px; /* Adjust the top position as needed */
+  width:600%;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center the element */
+  color: white; /* Change color for better visibility against the background */
+  z-index: 10; /* Ensure it's above other elements */
+
+}
+
+.class_0
+{
+  position: absolute; /* Position it absolutely */
+  top: 399px; /* Adjust the top position as needed */
+  width: 100%;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center the element */
+  color: white; /* Change color for better visibility against the background */
+  z-index: 10; /* Ensure it's above other elements */
+  padding-bottom: 0cap;
+}
+
+.class_0 p {
+  margin-bottom: 0; /* Reduce spacing between elements */
+}
+
+
+.class_connect_account {
+  position: absolute; /* Position it absolutely */
+  top: 0px; /* Adjust the top position as needed */
+  width: 200%;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center the element */
+  color: white; /* Change color for better visibility against the background */
+  z-index: 10; /* Ensure it's above other elements */
+}
+
+.amount-fund
+{
+  position: absolute; 
+  top:320px;
+  width: 100%;
+  left: 1%; 
+}
+
+
+
+
+
+
+
+
+
+
+/* Container for positioning */
+.class_arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* Adjust as needed */
+  position: relative; /* For absolute positioning of arrows */
+  background-color: black; /* Background for better visibility */
+}
+
+/* Glowing arrow */
+.glowing-arrow {
+  width: 110px; /* Adjust the arrow width */
+  height: 10px; /* Arrow body height */
+  background-color: white; /* Arrow body color */
+  position: relative; /* For positioning of the triangle head */
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+/* Arrow head */
+.glowing-arrow::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent; /* Adjust size as needed */
+  border-bottom: 10px solid transparent; /* Adjust size as needed */
+  border-left: 15px solid white; /* Arrow head color */
+  position: absolute;
+  top: -5px; /* Center the triangle vertically */
+  left: 100%; /* Position to the right of the body */
+}
+
+/* Position arrows in triangle order */
+.arrow1 {
+  transform: rotate(0deg);
+  position: absolute;
+  bottom: 28%; /* Position towards the top */
+  left: 41%; /* Center horizontally */
+  transform: translateX(-50%);
+  transform: rotate(60deg);
+}
+
+.arrow2 {
+  transform: rotate(120deg); /* Rotate to position */ 
+  position: absolute;
+  bottom: 6%; /* Position towards the right */ 
+  left: 33%; /* Position to the right */
+  transform: translate(-50%, 0);
+  transform: rotate(180deg);
+}
+
+.arrow3 {
+  transform: rotate(-120deg); /* Rotate to position */
+  position: absolute;
+  bottom: 25%; /* Position towards the left */
+  left: 20%; /* Position to the left */
+  transform: translate(-50%, 0);
+  transform: rotate(-60deg);
+}
+
+/* Glowing effect */
+@keyframes glow {
+  from {
+    filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0 10px #e60073)
+            drop-shadow(0 0 15px #e60073);
+  }
+  to {
+    filter: drop-shadow(0 0 10px #fff) drop-shadow(0 0 15px #ff4da6)
+            drop-shadow(0 0 20px #ff4da6);
+  }
+}

@@ -1,0 +1,15 @@
+.flash-loan-result {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e0f7fa;
+  color: #00695c;
+}
+
+.profit {
+  color: #388e3c;
+}
+
+.not-profitable {
+  color: #d32f2f;
+}
