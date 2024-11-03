@@ -12,6 +12,7 @@ Flash loans are a unique feature of decentralized finance (DeFi) protocols that 
     - [Setting Up Your Hardhat Project](#setting-up-your-hardhat-project)
     - [Run Frontend](#run-frontend)
 - [Smart Contract Artitecture](#smart-contract-artitecture)
+- [Resources](#resources)
 - [Contributing](#contributing)
 - [Contact](#contact)
 
@@ -84,7 +85,11 @@ Open the browser and go to `http://localhost:5173/`.
 
 ![image](https://github.com/user-attachments/assets/475e1deb-821c-4064-aa32-c972e1d3033a)
 
+## Resources
 
+- [Pancake swap Interface Libraries](https://github.com/pancakeswap/pancake-swap-periphery/tree/master/contracts)
+- [Uniswap Interface Libraries](https://github.com/Uniswap/v2-core/tree/master/contracts)
+- [Hardhat](https://hardhat.org/tutorial/)
 
 ## Contributing
 
