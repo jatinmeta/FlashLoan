@@ -1,14 +1,31 @@
 # FlashLoan
 Flash loans are a unique feature of decentralized finance (DeFi) protocols that allow users to borrow a large amount of crypto assets for a single transaction without requiring any collateral. The catch? The loan must be repaid in full, including interest, before the transaction is confirmed on the blockchain.
 
+## Table of Contents
 
-## **Prerequisites**
+- [Prerequisites](#prerequisites)
+- [Development Setup](#development-setup)
+  - [MetaMask setup](#metamask-setup)
+  - [Network Configuration](#network-configuration)
+  - [Creating Infura API Key](#creating-infura-api-key)
+- [How to run Flash Loan](#how-to-run-the-flash-loan)
+    - [Setting Up Your Hardhat Project](#setting-up-your-hardhat-project)
+    - [Run Frontend](#run-frontend)
+- [Smart Contract Artitecture](#smart-contract-artitecture)
+- [Contributing](#contributing)
+- [Contact](#contact)
 
-### **MetaMask setup**
+## Prerequisites
+- Decentralized Finance(Defi)
+- Solidity 
+- Hardhat
+
+## Development Setup
+### MetaMask setup
 
 - Install [MetaMask](https://metamask.io/)
 
-### **Network Configuration**
+### Network Configuration
 
 1. Open MetaMask and navigate to the networks section.
 2. Click on **Add Network** and enter the following details:
@@ -18,7 +35,7 @@ Flash loans are a unique feature of decentralized finance (DeFi) protocols that 
     - **Currency Symbol:** BNB
 
 
-### **Creating Infura API Key**
+### Creating Infura API Key
 
 1. Go to [Infura website](https://app.infura.io/) and click the "Create New API Key" button shown in your dashboard
 3. Under "Network," select "Web3 API."
@@ -27,7 +44,7 @@ Flash loans are a unique feature of decentralized finance (DeFi) protocols that 
 
 
 
-## How to run the Flash Loan**
+## How to run the Flash Loan
 
 ##### Setting Up Your Hardhat Project
 1. Clone the repository:
@@ -63,4 +80,22 @@ Flash loans are a unique feature of decentralized finance (DeFi) protocols that 
     ```
 Open the browser and go to `http://localhost:5173/`.
 
+## Smart Contract Artitecture
 
+![image](https://github.com/user-attachments/assets/475e1deb-821c-4064-aa32-c972e1d3033a)
+
+
+
+## Contributing
+
+We love contributions! Here's how you can help make the Flash Loan even better:
+
+1. Fork the project (`git repo fork https://github.com/jatinmeta/FlashLoan.git`)
+2. Create your feature branch (`git checkout -b New_Feature`)
+3. Commit your changes (`git commit -m 'Added New Feature'`)
+4. Push to the branch (`git push origin New_Feature`)
+5. Open a Pull Request
+
+## Contact
+
+Please open an issue in the GitHub repository for any queries or support.
