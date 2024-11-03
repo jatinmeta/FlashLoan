@@ -14,7 +14,7 @@ module.exports = {
     hardhat: {
       forking: {   // we are not working on bsc Mainnet chain we are working on forked bsc Mainnet chain
                //Public RPC Nodes
-        url: "https://bsc-mainnet.infura.io/v3/ffd685538dee4ee3bca98e5b475fb524", // forking == local copy of actual binance chain in PC  (binance RPC)   -> https://docs.bscscan.com/misc-tools-and-utilities/public-rpc-nodes
+        url: "https://bsc-mainnet.infura.io/v3/INFURA_API_KEY", // forking == local copy of actual binance chain in PC  (binance RPC)   -> https://docs.bscscan.com/misc-tools-and-utilities/public-rpc-nodes
     },
     },
   },
